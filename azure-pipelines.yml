@@ -47,7 +47,7 @@ stages:
     displayName: Deploy
     pool:
       vmImage: 'ubuntu-18.04'
-    environment: 'spike.default'
+    environment: 'aks-demo-yaml'
     variables:
     - group: Release
     strategy:
